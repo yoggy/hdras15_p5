@@ -2,6 +2,9 @@ hdras15_p5ライブラリとは？
 ========
 ProcessingからWi-fi経由でSony HDR-AS15のライブビュー画像を取得するライブラリ。640x360のライブビュー画像を取得することができます。
 
+Processing
+* http://processing.org/
+
 Sony HDR-AS15
 * http://www.sony.jp/actioncam/products/HDR-AS15/
 
