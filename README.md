@@ -14,6 +14,7 @@ How to use
    * SSIDが"DIRECT-????:HDR-AS15"のアクセスポイントへ接続。
 4. ping 10.0.0.1を実行してHDR-AS15と接続できていることを確認する。
 5. hdras15_p5ライブラリをlibrariesディレクトリへインストール。
+   * ディレクトリ名はhdras15_p5でlibrariesディレクトリにコピーしてください。
 6. サンプルスケッチを実行。
 
 Tips?
