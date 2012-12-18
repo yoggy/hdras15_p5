@@ -8,14 +8,16 @@ Sony HDR-AS15
 How to use
 ========
 1. あらかじめSony HDR-AS15を録画停止状態にしておく。
-2. Sony HDR-AS15のWi-fi機能を有効に設定する。
+2. Sony HDR-AS15の自動スリープ機能を無効に設定する。
+   * SETUP -> A.OFF -> OFF
+3. Sony HDR-AS15のWi-fi機能を有効に設定する。
    * SETUP -> RMOTE -> ONに設定
-3. PCからHDR-AS15のWi-fiに接続する。
+4. PCからHDR-AS15のWi-fiに接続する。
    * SSIDが"DIRECT-????:HDR-AS15"のアクセスポイントへ接続。
-4. ping 10.0.0.1を実行してHDR-AS15と接続できていることを確認する。
-5. hdras15_p5ライブラリをlibrariesディレクトリへインストール。
+5. ping 10.0.0.1を実行してHDR-AS15と接続できていることを確認する。
+6. hdras15_p5ライブラリをlibrariesディレクトリへインストール。
    * ディレクトリ名はhdras15_p5でlibrariesディレクトリにコピーしてください。
-6. サンプルスケッチを実行。
+7. サンプルスケッチを実行。
 
 Tips?
 ========
