@@ -9,7 +9,7 @@ Sony HDR-AS15
 * http://www.sony.jp/actioncam/products/HDR-AS15/
 
 How to use
-========
+----
 1. あらかじめSony HDR-AS15を録画停止状態にしておく。
 2. Sony HDR-AS15の自動スリープ機能を無効に設定する。
    * SETUP -> A.OFF -> OFF
@@ -23,12 +23,12 @@ How to use
 7. サンプルスケッチを実行。
 
 Tips?
-========
+----
 PCからHDR-AS15のWi-fiに接続した際、たまにDHCPによるIPの取得に失敗することがあるので、10.0.1.5/16などのIPアドレスを手動で設定しておくといいかもしれないです。
 
 
 Sample sketch for hdras15_p5 library
-========
+----
 <pre>
 import net.sabamiso.processing.hdras15.*;
 
@@ -55,3 +55,8 @@ void draw() {
 }
 </pre>
 
+Copyright and license
+----
+Copyright (c) 2016 yoggy
+
+Released under the [MIT license](LICENSE.txt)
