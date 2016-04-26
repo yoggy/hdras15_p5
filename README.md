@@ -1,5 +1,8 @@
-hdras15_p5ライブラリとは？
+hdras15_p5
 ========
+
+hdras15_p5ライブラリとは？
+----
 ProcessingからWi-fi経由でSony HDR-AS15のライブビュー画像を取得するライブラリ。640x360のライブビュー画像を取得することができます。
 
 Processing
@@ -54,6 +57,18 @@ void draw() {
   }
 }
 </pre>
+
+How to create hdras15_p5.jar
+----
+* 1. hdras15_p5/libsディレクトリにProcessingのcore.jarを置く
+* 2. hdras15_p5ディレクトリをEclipseで開く
+* 3. net.sabamiso.processing.hdras15.TestMainを実行できるかどうか確認する
+* 4. メニューのFile → Exportから"Runnable JAR File"を選択
+* 5. Runnable JAR File Specificationとして次の内容を設定
+  * "Launch Configuration" → 先ほど実行したTestMain
+  * "Export destination" → "hdras15_p5\library\hdras15_p5.jar"
+  * "Library Handling" → "Copy required libraries into a sub-folder..."
+* 6. "Finish"ボタンを押すとhdras15_p5.jarが作成される
 
 Copyright and license
 ----
