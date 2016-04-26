@@ -95,7 +95,9 @@ public class HDRAS15 extends Thread {
 			socket = new Socket(host, liveview_port);
 			OutputStream os = socket.getOutputStream();
 
-			String req = "GET /liveview.JPG?%211234%21http%2dget%3a%2a%3aimage%2fjpeg%3a%2a%21%21%21%21%21 HTTP/1.1\r\nHost: 10.0.0.1:60152\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\n";
+			String req = "GET /liveview.JPG?%211234%21http%2dget%3a%2a%3aimage%2fjpeg%3a%2a%21%21%21%21%21 HTTP/1.1\r\n" 
+					+ "Host: " + host + ":" + liveview_port + "\r\n" 
+					+ "Connection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\n";
 			os.write(req.getBytes());
 
 			// thread start...
